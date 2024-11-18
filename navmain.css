@@ -1,0 +1,71 @@
+html{background: #231F20;}
+
+.block{
+    display: block;
+}
+
+.LR-obj{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    padding: 0.5rem 10% 0.5rem 10%;
+    display: flex;
+    background: #231F20;
+    color: white;
+    justify-content: start;
+}
+
+main nav ul li{
+    display: flex;
+
+    width: calc(100% - 1.15rem);
+    height: 33px;
+    padding: 0px 10px;
+    align-items: center;
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-top: 0.5px solid rgba(0, 0, 0, 0.50);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.50);
+}
+
+/*elementos finais li*/
+main nav ul li:nth-child(6),
+main nav ul li:nth-child(12),
+main nav ul li:nth-child(33) {
+    border-bottom: 0;
+}
+
+/*li invisivel*/
+main nav ul li:nth-child(7),
+main nav ul li:nth-child(13),
+main nav ul li:nth-child(15),
+main nav ul li:nth-child(17),
+main nav ul li:nth-child(19) {
+    border: 0;
+}
+
+.theme{
+    border-top: 1px solid var(--Button-border, #00510F);
+    background: var(--Green-Button, #2C2628);
+    display: flex;
+    width: calc(100% - 1.15rem);
+    height: 40px;
+    padding: 0px 10px;
+    align-items: center;
+    flex-shrink: 0;
+
+    color: var(--Button-border, #00510F);
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
