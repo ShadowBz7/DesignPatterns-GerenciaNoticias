@@ -11,13 +11,14 @@
 /*showcase images*/
 .firstimage{
     display: flex;
-    width: calc(100% - 2.3rem);
+    width: 100%;
     height: 5rem;
     padding-top: 139px;
     justify-content: center;
     align-items:end;
     flex-shrink: 0;
-    background: url(adsp.jpg) lightgray 50% / cover no-repeat;
+    margin: 0 2rem;
+    
     
 }
 
@@ -25,7 +26,7 @@
 .slider-wrapper {
     position: relative;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 2rem;
     overflow: hidden; /* Ensure content inside slider doesn't overflow */
 }
 
@@ -40,6 +41,11 @@
     flex: 1 0 100%;
     scroll-snap-align: start;
     background-size: cover;
+}
+
+.container{
+    width: calc(100% - 2.3rem);
+    height: 15rem;
 }
 
 /*change*/
@@ -155,3 +161,9 @@
     float: left; 
     margin-right: 10px;
 }
+
+/*new*/
+.col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }

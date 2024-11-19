@@ -1,4 +1,6 @@
 <!-- footer.php -->
+</div>
+</main>
 <footer>
             <footer1 class="footer1">
                 <p class="footerh">Federal Institute of Education, Science and Technology Baiano</p>
